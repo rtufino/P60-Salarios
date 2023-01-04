@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>Salarios</class>
  <widget class="QMainWindow" name="Salarios">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -19,6 +22,13 @@
   <property name="windowTitle">
    <string>Salarios</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="Recursos.qrc">
+    <normaloff>:/Resourses/salario.png</normaloff>:/Resourses/salario.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(153, 193, 241);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
@@ -35,9 +45,15 @@
         <height>16777215</height>
        </size>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 138, 221);</string>
+      </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <widget class="QWidget" name="widget_3" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
          <layout class="QFormLayout" name="formLayout">
           <item row="0" column="0">
            <widget class="QLabel" name="label">
@@ -68,6 +84,9 @@
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="title">
           <string>Jornada</string>
          </property>
@@ -101,6 +120,9 @@
        </item>
        <item>
         <widget class="QWidget" name="widget_4" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
          <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
            <spacer name="horizontalSpacer">
@@ -152,6 +174,9 @@
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QPlainTextEdit" name="outCalculos">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="readOnly">
           <bool>true</bool>
          </property>
@@ -197,6 +222,10 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">
+   <property name="icon">
+    <iconset>
+     <normaloff>Resourses/5370453.png</normaloff>Resourses/5370453.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Nuevo</string>
    </property>
@@ -242,6 +271,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="Recursos.qrc"/>
+ </resources>
  <connections/>
 </ui>
