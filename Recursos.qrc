@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>Resourses/salario.png</file>
+        <file>Resourses/abrir.png</file>
+        <file>Resourses/guardar.png</file>
+        <file>Resourses/nuevo.png</file>
+        <file>Resourses/salir.png</file>
+        <file>Resourses/calcular.png</file>
+        <file>Resourses/ayuda.png</file>
     </qresource>
 </RCC>

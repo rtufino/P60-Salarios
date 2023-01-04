@@ -26,9 +26,6 @@
    <iconset resource="Recursos.qrc">
     <normaloff>:/Resourses/salario.png</normaloff>:/Resourses/salario.png</iconset>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: rgb(153, 193, 241);</string>
-  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
@@ -171,6 +168,9 @@
         <height>0</height>
        </size>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(220, 138, 221);</string>
+      </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QPlainTextEdit" name="outCalculos">
@@ -223,8 +223,8 @@
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">
    <property name="icon">
-    <iconset>
-     <normaloff>Resourses/5370453.png</normaloff>Resourses/5370453.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resourses/nuevo.png</normaloff>:/Resourses/nuevo.png</iconset>
    </property>
    <property name="text">
     <string>&amp;Nuevo</string>
@@ -234,6 +234,10 @@
    </property>
   </action>
   <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resourses/abrir.png</normaloff>:/Resourses/abrir.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Abrir</string>
    </property>
@@ -242,6 +246,10 @@
    </property>
   </action>
   <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resourses/guardar.png</normaloff>:/Resourses/guardar.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Guardar</string>
    </property>
@@ -250,6 +258,10 @@
    </property>
   </action>
   <action name="actionCalcular">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resourses/calcular.png</normaloff>:/Resourses/calcular.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Calcular</string>
    </property>
@@ -258,6 +270,10 @@
    </property>
   </action>
   <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resourses/salir.png</normaloff>:/Resourses/salir.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Salir</string>
    </property>
@@ -266,6 +282,10 @@
    </property>
   </action>
   <action name="actionAcerca_de">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Resourses/ayuda.png</normaloff>:/Resourses/ayuda.png</iconset>
+   </property>
    <property name="text">
     <string>Acerca de Salarios</string>
    </property>
