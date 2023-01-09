@@ -9,7 +9,6 @@
 #include "obrero.h"
 #include "controlador.h"
 #include "acerca.h"
-#include "dialog.h"
 
 #define VERSION "0.2"
 
