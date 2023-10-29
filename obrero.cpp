@@ -104,3 +104,4 @@ QString Obrero::jornada2String()
     }
 }
 
+
